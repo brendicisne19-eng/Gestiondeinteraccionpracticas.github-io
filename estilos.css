@@ -1,0 +1,108 @@
+/* Barra de título general */
+.barra-titulo {
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+/* Colores por sección */
+.barra-titulo.index { background-color: #1bc3f6; }       /* Rojo */
+.barra-titulo.ciclo { background-color: #1E90FF; }       /* Azul claro */
+.barra-titulo.practicas { background-color: #227bd4; }   /* Verde */
+.barra-titulo.flujo { background-color: #FF8C00; }       /* Naranja */
+.barra-titulo.mejora { background-color: #8A2BE2; }      /* Morado */
+.barra-titulo.referencias { background-color: #09fc52; } /* Turquesa */
+.barra-titulo.conclusiones { background-color: #FF69B4; }/* Rosa */
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Botones del sidebar */
+.sidebar button {
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.sidebar button:hover {
+    transform: scale(1.05);
+}
+
+/* Colores de botones */
+.btn-ciclo { background-color: #4483e8; }       /* Azul claro */
+.btn-practicas { background-color: #1bdad1; }   /* Verde */
+.btn-flujo { background-color: #FF8C00; }       /* Naranja */
+.btn-mejora { background-color: #8A2BE2; }      /* Morado */
+.btn-referencias { background-color: #09fc52; } /* Turquesa */
+.btn-conclusiones { background-color: #FF69B4; }/* Rosa */
+
+/* Contenido a la derecha */
+.contenido {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+.fase {
+    margin-bottom: 20px; /* espacio entre cada fase */
+}
+/* --- Barra superior verde --- */
+.barra-titulo {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* --- SIDEBAR --- */
+.sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    height: 100%;
+}
+
+.sidebar-titulo {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
